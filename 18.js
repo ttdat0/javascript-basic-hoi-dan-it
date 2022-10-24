@@ -31,4 +31,4 @@ switch (a) {
     default:        
         break;        
 }
-console.log('check day: ', day, new Date().getDay())
+ console.log('check day: ', day, new Date().getDay())
