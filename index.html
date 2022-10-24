@@ -7,14 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoi dan IT voi ERIC</title>
 </head>
-<script>
-    alert('Hello world from javascript')
-
+<script src="./17.js">
+    //alert('Hello world from javascript')
+  
 </script>
 
 <body>
     <h1> Hello world from HTML</h1>
-
+    <p id="demo">Good Evening!</p>
+    <script>
+        if (new Date().getHours() < 18) {
+          document.getElementById("demo").innerHTML = "Good day!";
+        }
+        </script>
 </body>
 
 </html>
